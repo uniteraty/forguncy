@@ -1,6 +1,6 @@
 // DB接続情報の取得
 var DbInfo;
-var GetDbInfo = (function () {
+var GetDbInfo = function (Forguncy) {
 	var config = function (id) {
 		var ret = { result: null, value: null};
 		var defer = $.Deferred();
@@ -57,4 +57,4 @@ var GetDbInfo = (function () {
 			})(dbInfo);
 			
 		});
-})();
+};
