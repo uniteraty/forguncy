@@ -57,4 +57,8 @@ var GetDbInfo = function (Forguncy) {
 			})(dbInfo);
 			
 		});
+<<<<<<< HEAD
 };
+=======
+});
+>>>>>>> 07929df64a5774f3ff6aeaa52e975355e1a9b1af
